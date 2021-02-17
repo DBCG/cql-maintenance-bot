@@ -4,7 +4,8 @@ os: linux
 dist: focal
 env:
   matrix:
-  - GITHUB_USER=jonathan.i.percival
+  - GITHUB_EMAIL=jonathan.i.percival@gmail.com
+  - GITHUB_USER=JPercival
   global:
     secure: a8mn+mIMGrVlgioFAJZnYDtteenPgFsEuiYXXUztjiNQqKGNoZ7BwbSCUcq4VNWgr/g1ehgef+LZAfUOG/iJxNOiG+gxsoUUxTFbD6E8pJboUGi2K2/kQ/3+wMOAxsEXwIJi26JkNWkc4DEwY4tcsX+0AROg8dhnHO1Jnh0WLYpcAlRwxqpxFPGpnDSiOILW6mH9A7Sf70c4DBXtIoAqZZRMd6Hm/G3+scanSz7qI0QkvOTwT3a7EXs0S8CapU3PjNua4HUJEPArjjTrWDMcSbbO0xeHQ+1GPJ+SU0DQc982DMq5ZLqW2jT1tDEO1hTAstBbEMbuUicdccoqz495k/7mvB42KDXM5l9zIG+ovj9+bKK2I1oqlXu7300LfyjF2Ljs0/PEDtYKy9VKcBOVddET7cYywMFqaxeLkEYNNT4p4FYSGDMN41kouP3kljkOd73A8tJENVkyn1ucwZiX86FMsaY+Sm9U9a1K4ZBbcYIHyYMouERQWRVDoxkvw/FO5YwVy/ufilTPTJD879skBbBME1RlTanvoASUMQHep/bu6PPo2eMsGn0n4/7EUiT7BsPQG2vjniT+Hd3Fbe31aTr9I2B4Y09gFTPs4pk09Seoh8tmMdlaYT5B+4F0OZDfcGq1C8SiqYFp3qw711Ydnx/BdRAGlaRa3+ZcjY8Wbbc=
 cache:
