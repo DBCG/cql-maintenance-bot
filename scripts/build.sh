@@ -8,7 +8,11 @@ git config user.email $GITHUB_EMAIL
 git config user.name $GITHUB_USER
 
 cwd=$(pwd)
-repos=("cqf-tooling|github.com/cqframework/cqf-tooling.git|master")
+repos=(
+    "cql_engine|github.com/DBCG/cql_engine.git|master"
+    "cqf-tooling|github.com/cqframework/cqf-tooling.git|master"
+)
+
 for i in "${repos[@]}"
 do
     : 
