@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Fail if any command fails or if there are unbound variables and check syntax
+set -euxo pipefail
+bash -n "$0"
 
 git config user.email $GITHUB_EMAIL
 git config user.name $GITHUB_USER
