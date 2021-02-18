@@ -46,5 +46,6 @@ do
     fi
 
     cd $cwd
+    rm -rf ${parts[0]}
 done
 
