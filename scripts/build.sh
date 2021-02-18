@@ -12,6 +12,7 @@ repos=(
     "cql_engine|github.com/DBCG/cql_engine.git|master"
     "cqf-tooling|github.com/cqframework/cqf-tooling.git|master"
     "cql-language-server|github.com/DBCG/cql-language-server|master"
+    "cql-evaluator|github.com/DBCG/cql-evaluator|master"
 )
 
 for i in "${repos[@]}"
